@@ -2,7 +2,7 @@
 Implementation of a Shallow Wave Simulator as part of the course INF585 on Computer Animation - Ecole Polytechnique
 
 ### Setup :
-For the shallow wave code to run, you need to download the cgp library available on the github page of Damien Rohmer (link: )
+For the shallow wave code to run, you need to download the cgp library available on the github page of Damien Rohmer (link: https://github.com/drohmer/cgp)
 
 The project direcotry should be of the format :
 
