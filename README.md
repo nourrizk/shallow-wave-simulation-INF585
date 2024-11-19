@@ -7,7 +7,9 @@ For the shallow wave code to run, you need to download the cgp library available
 The project direcotry should be of the format :
 
 root
+
 ├── project-code-INF585
+
 ├── cgp
 
 ### Results :
