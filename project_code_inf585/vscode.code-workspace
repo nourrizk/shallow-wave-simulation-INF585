@@ -3,12 +3,12 @@
 {
 	"folders": [
 		{
-			"name": "Scene-11_stable_fluids",
+			"name": "Scene-project_code_inf585",
 			"path": "."
 		},
 		{
 			"name": "cgp",
-			"path": "../../cgp/library/",
+			"path": "../cgp/library/",
 		}
 	],
 
@@ -21,8 +21,8 @@
 			"type": "cppdbg",
 			"request": "launch",
 			"name": "C++ Run",
-			"program": "${workspaceFolder:Scene-11_stable_fluids}/build/11_stable_fluids",
-			"cwd": "${workspaceFolder:Scene-11_stable_fluids}",
+			"program": "${workspaceFolder:Scene-project_code_inf585}/build/project_code_inf585",
+			"cwd": "${workspaceFolder:Scene-project_code_inf585}",
 			"linux": {
 				"MIMode": "gdb"
 			},

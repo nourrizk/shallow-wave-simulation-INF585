@@ -1,10 +1,10 @@
-# This Makefile will generate an executable file named 11_stable_fluids
+# This Makefile will generate an executable file named project_code_inf585
 
 # This path should point to the CGP library depending on the current directory
 ## You may need to it in case you move the position of your directory
-PATH_TO_CGP = ../../cgp/library/
+PATH_TO_CGP = ../cgp/library/
 
-TARGET ?= 11_stable_fluids #name of the executable
+TARGET ?= project_code_inf585 #name of the executable
 SRC_DIRS ?= src/ $(PATH_TO_CGP)
 CXX = g++ #Or clang++
 
