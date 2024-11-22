@@ -5,7 +5,9 @@ Implementation of a Shallow Wave Simulator as part of the course INF585 on Compu
 The goal of this project is to implement a **breaking wave visualisation** based on a shallow water representation coupled with a particle based approach for the breaking waves modeling. We based our work on N. Thürey, et al. paper _Real-time Breaking Waves for Shallow Water Simulations_ and implemented the shallow water representation for the surface of the fluid, as well as a wave front detection and wave line generation. Since the project is computation heavy to run in real-time on our machine, and as a first phase, we chose to leave the surrogate particle-based sheet representation of the actual breaking waves as a future step. However, we have developed the necessary code to detect the potential regions of overturning waves based on their height field, to compute their advection over time and to generate points and particles necessary to visualize the breaking waves.
 
 ### Code Setup :
-To run the shallow wave code, you need to download the cgp library available on the github page of Prof. Damien Rohmer (link: https://github.com/drohmer/cgp).\\ 
+To run the shallow wave code, you need to download the cgp library available on the github page of Prof. Damien Rohmer
+(link: https://github.com/drohmer/cgp). 
+
 Furthermore, the project directory should be structured as follows:
 
 ```bash
